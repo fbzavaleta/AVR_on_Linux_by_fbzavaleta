@@ -24,20 +24,14 @@ ENJOY!!!!!
 
 Disponible: https://www.youtube.com/watch?v=SON6iVxlvyY
 
-#Atualizar software
-sudo apt update
+sudo apt update #Atualizar software
 
-#Instalación de dependencias
-sudo apt-get install gcc-avr binutils-avr avr-libc
+sudo apt-get install gcc-avr binutils-avr avr-libc     #Instalación de dependencias
 
-#Identificando el path del compilador
-whereis avr-gcc
+whereis avr-gcc                                        #Identificando el path del compilador
 
-#Identificando el path del toolchain
-whereis avr
+whereis avr                                            #Identificando el path del toolchain
 
-#Instalando el grabador
-sudo apt-get install avrdude
+sudo apt-get install avrdude                           #Instalando el grabador
 
-#Identificando en que puerto serial esta conectado el microcontrolador
-dmesg | grep tyy
+dmesg | grep tyy                                       #Identificando en que puerto serial esta conectado el microcontrolador
